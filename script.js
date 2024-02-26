@@ -1,9 +1,10 @@
-alert("Masukkan informasi berikut:\n\n" + "Nama Anda:");
-
-alert("Umur Anda:");
-
-alert("Studio (A, B, atau C):");
-
+alert("Masukkan informasi berikut:\n\n" +
+      "Nama Anda");
+var nama = prompt();
+alert("Umur Anda");
+var umur = parseInt(prompt());
+alert("Studio (A, B, atau C)");
+var studio = prompt().toUpperCase();
 
 if (umur < 13) {
     alert("Maaf, Anda belum cukup umur untuk mengakses studio.");
